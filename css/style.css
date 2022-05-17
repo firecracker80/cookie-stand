@@ -1,0 +1,16 @@
+body {
+  background-color: bisque;
+}
+
+img {
+  float: left;
+  margin-right: 100px;
+}
+
+h1 {
+padding-top: 25px;
+}
+
+nav {
+  margin-left: 300px;
+}
