@@ -200,6 +200,7 @@ const lima = {
   avgCookiesPerCust: 4.6,
   customers: [],
   cookies: [],
+  // total: [],
   calcCustPerHr: function() {
     for (let i = 0; i < this.hours.length; i++) {
       let custNum = random (this.hourlyCustMin, this.hourlyCustMax);
@@ -233,6 +234,10 @@ const lima = {
         li.textContent = this.hours[i] + ': ' + this.cookies [i] + ' cookies';
         ul.appendChild(li);
       }
+
+      // const li = document.createElement('li');
+      // li.textContent = `Total: ${this.total} cookies`;
+      // ul.appendChild('li');
     
   } 
 };
