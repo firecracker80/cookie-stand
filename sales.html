@@ -16,11 +16,40 @@
     <nav>
       <p><a href="index.html">Home</a></p>
     </nav>
-    <h2><b>Sales by Location</b></h2>
+    <h2><b><u>Sales by Location</u></b></h2>
     <div id="cityProfiles">
       <table></table>
     </div>
-    <h2><b>Merchandise</b></h2>
+
+    <br/><br/><br/>
+
+    <form id="storeForm">
+      <fieldset>
+        <section id="formField">
+          <legend><u>New Cookie Stand</u></legend>
+        
+          <label for="cityName">City</label>
+          <input id="cityName" type="text" name="cityName">
+        
+          <label for="custMin">Minimum Customers</label>
+          <input id="custMin" type="number" name="custMin">
+
+          <label for="custMax">Maximum Customers</label>
+          <input id="custMax" type="number" name="custMax">
+
+          <label for="avgCust">Average Cookies Per Customer</label>
+          <input id="avgCust" type="number" step = "any" name="avgCust">
+
+          <button type="submit">Submit</button>
+      </section>
+        <img id="cutter" src="img/cutter.jpeg" alt="Pat’s Salmon Cookies">
+      </fieldset>
+
+    </form>                         
+
+    <br/><br/><br/>
+
+    <h2><b><u>Merchandise</u></b></h2>
     <div id="merch">
       <img id="tshirt" src="img/shirt.jpeg" alt="Pat’s Salmon Cookies">
       <img id="fish" src="img/fish.jpeg" alt="Pat’s Salmon Cookies">
