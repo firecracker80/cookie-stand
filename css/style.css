@@ -17,7 +17,7 @@ header {
 
 h1 {
   font-family: 'Lobster';font-size: 65px;
-  /* margin-left: 50px; */
+  background-color: #c6d8af;
 }
 
 #chinook {
@@ -33,23 +33,56 @@ nav {
 }
 
 main {
-  margin-left: 350px;
+  margin-left: 315px;
   margin-top: 60px;
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 3px solid #685369;
   background-color: bisque;
 }
 
 h2{
+  font-family: 'Lobster';font-size: 30px;
+}
+
+#storeForm {
+  width: 790px;
   font-family: 'Lobster';font-size: 20px;
+}
+
+#formField {
+  display: grid;
+  float: left;
+  margin-left: 30px;
+}
+
+legend {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#storeForm img {
+  margin-left: 150px;
+  margin-top: 10px;
+  height: 250px;
+  width: 250px;
+  border: solid #685369;
+}
+
+button {
+  background-color: #c6d8af;
+  margin-top: 15px;
 }
 
 #merch{
   display: flex;
   justify-content: space-evenly;
-  margin-right: 360px;
+  margin-right: 300px;
+}
+
+#merch img {
+  border: solid #685369
 }
 
 footer {
