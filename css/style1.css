@@ -4,20 +4,29 @@ body {
 
 header {
   display: flex;
+  background-color: white;
 }
 
 header img {
   /* float: left; */
   width: 250px;
   height: 75px;
-  margin-left: 30px;
-  margin-right: 100px;
+  margin-top: 30px;
+  /* margin-left: 30px;
+  margin-right: 100px; */
 }
 
 h1 {
-  font-family: 'Lobster';font-size: 75px;
+  font-family: 'Lobster';font-size: 65px;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+#chinook {
+  width: 250px;
+  height: 75px;
+  margin-top: 30px;
+  
 }
 
 header p {
@@ -43,19 +52,34 @@ main nav{
 }
 
 #cutter {
-  margin: 30px;
+  margin: 10px;
 }
 
 #frosted {
-  margin: 30px;
+  margin: 10px;
 }
 
 #family {
 margin-left: 250px;
 }
 
-table, th, td {
-  border: 1px solid black;
+h2{
+  font-family: 'Lobster';font-size: 20px;
+  margin-left: 300px;
+}
+
+#merch{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 175px; */
+}
+
+#tshirt {
+  margin: 30px;
+}
+
+#fish {
+  margin: 30px;
 }
 
 footer {
