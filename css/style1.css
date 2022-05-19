@@ -12,6 +12,7 @@ header img {
   height: 75px;
   margin-left: 30px;
   margin-right: 100px;
+  margin-top: 40px;
 }
 
 h1 {
@@ -21,15 +22,10 @@ h1 {
 }
 
 header p {
-  /* padding-left: 600px; */
-  /* margin: auto; */
   width: max-content;
-}
+  font-family: 'Lobster';font-size: 
 
-/* nav {
-  margin-left: 500px;
-  margin-bottom: 40px;
-} */
+}
 
 main nav{
   margin-left: 600px;
@@ -44,18 +40,17 @@ main nav{
 
 #cutter {
   margin: 30px;
+  border: solid #685369;
 }
 
 #frosted {
   margin: 30px;
+  border: solid #685369;
 }
 
 #family {
 margin-left: 250px;
-}
-
-table, th, td {
-  border: 1px solid black;
+border: solid #685369;
 }
 
 footer {
