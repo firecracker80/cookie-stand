@@ -2,15 +2,57 @@ body {
   background-color: bisque;
 }
 
-img {
-  float: left;
-  margin-right: 100px;
+header {
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#salmon {
+  /* float: left; */
+  width: 250px;
+  height: 75px;
+  margin-top: 30px;
 }
 
 h1 {
-padding-top: 25px;
+  font-family: 'Lobster';font-size: 65px;
+  /* margin-left: 50px; */
+}
+
+#chinook {
+  width: 250px;
+  height: 75px;
+  margin-top: 30px;
+  
 }
 
 nav {
   margin-left: 300px;
+  margin-bottom: 40px;
+}
+
+main {
+  margin-left: 350px;
+  margin-top: 60px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+h2{
+  font-family: 'Lobster';font-size: 20px;
+}
+
+#merch{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 360px;
+}
+
+footer {
+  font-family: 'Lobster';font-size: 20px;
+  margin-left: 565px;
 }
