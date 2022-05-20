@@ -4,33 +4,35 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
   background-color: white;
   border: solid black;
 }
 
 #salmon {
-  margin-top: 30px;
+  padding-top: 30px;
 }
+
 
 h1 {
   font-family: 'Lobster';font-size: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
   color: #c6d8af;
-  border: solid black;
+  /* border: solid black; */
 }
 
 #chinook {
   width: 250px;
   height: 75px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   
 }
 
 header p {
   width: max-content;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #6f1d1b
+  color: #6f1d1b;
 }
 
 main nav{
@@ -94,7 +96,7 @@ h2 {
   border: solid #685369;
 }
 
-div p {
+main div p {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #78290f;
