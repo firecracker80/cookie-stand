@@ -5,22 +5,19 @@ body {
 header {
   display: flex;
   background-color: white;
+  border: solid black;
 }
 
 #salmon {
-  /* float: left; */
-  width: 250px;
-  height: 75px;
-
-  margin-left: 30px;
-  margin-right: 100px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 h1 {
-  font-family: 'Lobster';font-size: 65px;
+  font-family: 'Lobster';font-size: 50px;
   margin-left: 30px;
   margin-right: 30px;
+  color: #c6d8af;
+  border: solid black;
 }
 
 #chinook {
@@ -32,8 +29,8 @@ h1 {
 
 header p {
   width: max-content;
-  font-family: 'Lobster';font-size: 
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6f1d1b
 }
 
 main nav{
@@ -41,10 +38,15 @@ main nav{
   margin-top: 60px;
 }
 
+nav p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #baked {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  /* border: solid #685369; */
 }
 
 #cutter {
@@ -61,12 +63,19 @@ main nav{
 
 #family {
 margin-left: 250px;
-
+border: solid #685369;
 }
 
-h2{
-  font-family: 'Lobster';font-size: 20px;
-  margin-left: 300px;
+figure p {
+  font-size: 25px;
+  width: px;
+  color: #78290f;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif 40px;
+  margin-left: 625px;
+  color: #78290f;
 }
 
 #merch{
@@ -77,13 +86,23 @@ h2{
 
 #tshirt {
   margin: 30px;
+  border: solid #685369;
 }
 
 #fish {
   margin: 30px;
+  border: solid #685369;
+}
+
+div p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #78290f;
 }
 
 footer {
   font-family: 'Lobster';font-size: 20px;
   margin-left: 565px;
+  padding-top: 40px;
+  color: #15616d;
 }
