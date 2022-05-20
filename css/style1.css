@@ -33,6 +33,7 @@ header p {
   width: max-content;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #6f1d1b;
+  margin-right: 10px;
 }
 
 main nav{
